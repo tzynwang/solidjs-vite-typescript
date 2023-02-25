@@ -10,6 +10,14 @@
     "jsxImportSource": "solid-js",
     "types": ["vite/client"],
     "noEmit": true,
-    "isolatedModules": true
-  }
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@Asset/*": ["./src/asset/*"],
+      "@Component/*": ["./src/component/*"],
+      "@Model/*": ["./src/model/*"]
+    }
+  },
+  "exclude": ["./build", "./node_modules"]
 }

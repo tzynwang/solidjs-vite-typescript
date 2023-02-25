@@ -1,10 +1,10 @@
 import { Component } from 'solid-js';
 import { Router, Routes, Route } from '@solidjs/router';
-import HomePage from '../../Page/Home';
-import BlogPage from '../../Page/Blog';
-import NotFoundPage from '../../Page/NotFound';
-import Navigate from '../../Common/Navigate';
-import { ROUTE } from '../../../model/GeneralModel';
+import HomePage from '@Component/Page/Home';
+import BlogPage from '@Component/Page/Blog';
+import NotFoundPage from '@Component/Page/NotFound';
+import Navigate from '@Component/Common/Navigate';
+import { ROUTE } from '@Model/GeneralModel';
 
 const RouterLayer: Component = () => {
   /* Main */

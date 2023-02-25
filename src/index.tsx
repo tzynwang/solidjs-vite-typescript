@@ -1,6 +1,6 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
-import AppEntryPoint from './component/AppEntryPoint';
+import AppEntryPoint from '@Component/AppEntryPoint';
 import './index.css';
 
 const ROOT = document.getElementById('root');
