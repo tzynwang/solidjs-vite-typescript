@@ -3,6 +3,7 @@
 ## Quick start
 
 ```shell
+cp .env.example .env
 make i
 make start
 # then open http://localhost:3000
