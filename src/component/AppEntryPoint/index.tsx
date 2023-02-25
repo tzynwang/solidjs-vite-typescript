@@ -1,6 +1,6 @@
 import type { Component } from 'solid-js';
 
-import RouterLayer from '../Layer/Router';
+import RouterLayer from '@Component/Layer/Router';
 
 const AppEntryPoint: Component = () => <RouterLayer />;
 
