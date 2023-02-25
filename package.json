@@ -7,6 +7,10 @@
     "build": "vite build",
     "preview": "vite preview --port 8080"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tzynwang/solidjs-vite-typescript.git"
+  },
   "license": "MIT",
   "dependencies": {
     "solid-js": "^1.6.10",
